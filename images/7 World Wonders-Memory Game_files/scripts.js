@@ -18,7 +18,7 @@ $(document).ready(function(){
 		'font-weight':'bold',
 		'color':'blue',
 		'position': 'relative',
-		'left': '275px'
+		'left': '275px';
 		
 	});
 		$('#header-button1').css({
