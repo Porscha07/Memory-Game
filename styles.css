@@ -1,6 +1,9 @@
 img{
 	max-width: 100%;
 }
+body{
+	background-color: beige;
+}
 
 #header-title {
 	font-weight:  bold;
@@ -20,6 +23,21 @@ img{
 
 #header-image{
 	text-align: center;
+}
+
+#header-button{
+	font-size:medium;
+	font-weight:bold;
+	color:blue;
+	position: relative;
+	left: 275px
+}
+
+#header-button1{
+	font-size:medium;
+	font-weight:bold;
+	color:blue;
+	position: relative;
 }
 
 .card{
@@ -44,9 +62,12 @@ img{
 	backface-visibility: hidden;
 
 }
-
 .card-front{
-	background:  url('../images/logo-bw.png') no repeat 50% 50%;
+	transform: rotateY(180deg);
+}
+
+.card-back{
+	background: url('../images/logo-bw.png') no repeat 50% 50%;
 	height:  300px;
 	min-width: 300px;
 }
